@@ -1,0 +1,83 @@
+body {
+    background-image: url("https://previews.123rf.com/images/chatchaiyo/chatchaiyo1504/chatchaiyo150400028/39544875-white-wall-crack-background-Stock-Photo.jpg");
+    z-index: 1;
+}
+
+.title-blue {
+    color: darkblue;
+}
+
+.message-error {
+    color: red;
+}
+
+.message-ok {
+    color: #008000;
+}
+
+.sum {
+    color: darkblue;
+    font-style: italic;
+}
+
+table {
+    border-collapse: collapse;
+    text-align: center;
+}
+
+tr, td {
+    border: 1px solid lightgray;
+    vertical-align: middle;
+}
+
+#pop-up-open-account, #pop-up-close-account,
+#pop-up-add-funds, #pop-up-transfer-funds,
+#pop-up-open-deposit, #pop-up-close-deposit,
+#pop-up-get-credit, #pop-up-close-credit {
+    position: fixed;
+    display: inline-block;
+    background: lightgray;
+    border: 2px solid white;
+    border-radius: 10px;
+    left: 35%;
+    top: 25%;
+    width: 300px;
+    height: auto;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 2;
+    text-align: center;
+}
+
+.overlay {
+    background-color: #505050;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0;
+    visibility: hidden;
+    z-index: 1;
+}
+
+.close {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    width: 25px;
+    height: 25px;
+    text-align: center;
+    cursor: pointer;
+    border: 2px solid white;
+    border-radius: 50%;
+    background-color: lightgray;
+}
+
+.close :hover {
+    color: white;
+}
+
+.close :active {
+    color: black;
+}
