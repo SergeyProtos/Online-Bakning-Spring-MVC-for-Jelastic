@@ -1,0 +1,20 @@
+body {
+    background-image: url("http://c8.alamy.com/comp/JTD6PN/currency-concept-target-and-online-banking-on-wall-background-JTD6PN.jpg")
+}
+
+.title {
+    color: white;
+}
+
+.message {
+    color: #cc0000;
+}
+
+form {
+    opacity: 0.95;
+}
+
+fieldset {
+    width: 300px;
+    background-color: #f5f5f0;
+}

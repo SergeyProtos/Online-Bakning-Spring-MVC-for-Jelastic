@@ -5,7 +5,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>sergey.protosovitskiy</groupId>
-    <artifactId>OnlineBankingWebAppJelastic</artifactId>
+    <artifactId>OnlineBankingOpenShift</artifactId>
     <version>1.0</version>
 
     <packaging>war</packaging>
@@ -61,6 +61,7 @@
     </dependencies>
 
     <build>
+        <finalName>ROOT</finalName>
         <plugins>
             <plugin>
                 <groupId>org.apache.maven.plugins</groupId>

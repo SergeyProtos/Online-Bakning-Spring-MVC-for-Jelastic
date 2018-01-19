@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/OnlineBankingWebAppJelastic.iml" filepath="$PROJECT_DIR$/OnlineBankingWebAppJelastic.iml" />
+      <module fileurl="file://$PROJECT_DIR$/OnlineBankingOpenShift.iml" filepath="$PROJECT_DIR$/OnlineBankingOpenShift.iml" />
     </modules>
   </component>
 </project>

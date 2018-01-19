@@ -354,7 +354,7 @@
         $('.overlay').css({'opacity': 0.8, 'visibility': 'visible'});
     });
     $('.close').click(function () {
-        $('#pop-up-open-account, #pop-up-add-funds, #pop-up-transfer-funds, #pop-up-open-deposit, #pop-up-close-deposit, #pop-up-get-credit, #pop-up-close-credit, .overlay').css({
+        $('#pop-up-open-account, #pop-up-close-account, #pop-up-add-funds, #pop-up-transfer-funds, #pop-up-open-deposit, #pop-up-close-deposit, #pop-up-get-credit, #pop-up-close-credit, .overlay').css({
             'opacity': 0,
             'visibility': 'hidden'
         });

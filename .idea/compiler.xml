@@ -7,11 +7,13 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="OnlineBankingJelastic" />
+        <module name="OnlineBankingOpenShift" />
         <module name="OnlineBankingWebAppJelastic" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="OnlineBankingJelastic" target="1.8" />
+      <module name="OnlineBankingOpenShift" target="1.8" />
       <module name="OnlineBankingWebAppJelastic" target="1.8" />
     </bytecodeTargetLevel>
   </component>
